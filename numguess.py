@@ -10,6 +10,13 @@ while 1:
 	if guess == answer:
 		print("Correct!")
 		break
+	elif guess > answer :
+		print(str(guess) + " > answer")
+	elif guess < answer :
+		print(str(guess) + " < answer")
 	else :
 		print("You are wrong!")
+
+	
+	
 	
